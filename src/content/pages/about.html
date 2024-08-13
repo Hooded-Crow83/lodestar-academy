@@ -21,55 +21,92 @@ eleventyNavigation:
 
     <section id="int-hero">
         <h1 id="home-h">About Us</h1>
-        <picture>
-            <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-            <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-            <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="/assets/images/Webdesign_1.jpg">
+            <source media="(min-width: 601px)" srcset="/assets/images/Webdesign_1.jpg">
+            <img aria-hidden="true" decoding="async" src="/assets/images/Webdesign_1.jpg" alt="new home" width="2250" height="1500" loading="eager">
         </picture>
 
     </section>
 
-    <!-- ============================================ -->
-    <!--                 Side By Side                 -->
-    <!-- ============================================ -->
+<!-- ============================================ -->
+<!--                   Reviews                    -->
+<!-- ============================================ -->
 
-    <section id="sbs">
+<section id="reviews-442">
+    <div class="cs-wrapper">
         <div class="cs-container">
-            <!-- Left Image Section -->
-            <div class="cs-left">
-                <picture class="cs-picture cs-picture1">
-                    <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="cabinets" loading="lazy" width="400" height="563">
-                </picture>
-                <picture class="cs-picture cs-picture2">
-                    <source media="(max-width: 600px)" srcset="/assets/images/construction-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/construction.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/construction.jpg" alt="house" loading="lazy" width="400" height="563">
-                </picture>
-            </div>
-            <!-- Right Content Section-->
-            <div class="cs-right">
-                <span class="cs-topper">About Us</span>
-                <h2 class="cs-title">About Company Title</h2>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
+            <div class="cs-content">
+                <p class="cs-review">
+                    <!--Placed inside p tag for more consistent positioning-->
+                    <img class="cs-quote" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Reviews/quote-left.svg" alt="quote icon" width="120" height="106" loading="lazy" decoding="async" aria-hidden="true">
+                    "After serving over 20 years in the Army, where I honed my discipline, leadership, and attention to detail, I decided to channel those skills into a new mission: creating websites for small business. Just like the service, success in business requires planning, precision, and a commitment to excellence. Now I'm helping businesses build their digital presence, one pixel at a time.”
                 </p>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
-                </p>
-                <div class="cs-flex-group">
-                    <p class="cs-flex-p">
-                        In consequat tincidunt turpis sit amet imperdiet. Praesent Classei consequat tincidunt turpis sit amet imperdiet for mind.
-                    </p>
-                    <span class="cs-name">Justin Time</span>
-                    <span class="cs-job">CEO-Founder</span>
-                    <img class="cs-quote-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg" alt="gavel" width="136" height="77">
-                </div>
-                <a href="/projects" class="cs-button-solid">Our Projects</a>
+                <span class="cs-author">Bryan McCoskey - BookStreet Web Design</span>
             </div>
+            <picture class="cs-picture">
+                <source media="(max-width: 600px)" srcset="/assets/images/bryan.jpg">
+                <source media="(min-width: 601px)" srcset="/assets/images/bryan.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/bryan.jpg" alt="person looking left" width="328" height="540" aria-hidden="true">
+            </picture>
         </div>
-    </section>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                 About Us                     -->
+<!-- ============================================ -->
+
+<section id="why-choose-442">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Best-In-Class</span>
+            <h2 class="cs-title">Why Choose Us?</h2>
+            <p class="cs-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Why-Choose/icon1.svg" loading="lazy" decoding="async" alt="icon" width="40" height="40" aria-hidden="true">
+                </picture>
+                <h3 class="cs-h3">No Pre-Written Content </h3>
+                <p class="cs-item-text">
+                    None of our content is pre-written, ensuring your site is unique and tailored to your needs.
+                </p>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Why-Choose/icon2.svg" loading="lazy" decoding="async" alt="icon" width="40" height="40" aria-hidden="true">
+                </picture>
+                <h3 class="cs-h3">No Page Builders</h3>
+                <p class="cs-item-text">
+                    We never use any Page Builders, they hurt performance and kill SEO. We offer speed & optimisation.
+                </p>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Why-Choose/icon3.svg" loading="lazy" decoding="async" alt="icon" width="40" height="40" aria-hidden="true">
+                </picture>
+                <h3 class="cs-h3">No Limits On Design</h3>
+                <p class="cs-item-text">
+                    Need something changing? No problem, our signature subscription comes with lifetime updates.
+                </p>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Why-Choose/icon4.svg" loading="lazy" decoding="async" alt="icon" width="40" height="40" aria-hidden="true">
+                </picture>
+                <h3 class="cs-h3">No Compromise</h3>
+                <p class="cs-item-text">
+                    We will never compromise on quality or speed. This is why we all our sites are hand-coded from scratch.
+                </p>
+            </li>
+        </ul>
+    </div>
+</section>
+                                
 
     {% include 'components/cta.html' %}
 

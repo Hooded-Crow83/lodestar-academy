@@ -5,8 +5,8 @@
 /* Mobile */
 @media only screen and (min-width: 0rem) {
   :root {
-    --dark: #082032;
-    --medium: #2c394b;
+    --dark: #212426;
+    --medium: #41474a;
     --accent: #334756;
   }
   body.dark-mode {
