@@ -309,6 +309,7 @@
     /* 24px - 32px */
     height: clamp(1.5rem, 2vw, 2rem);
     width: auto;
+    filter: invert(94%) sepia(48%) saturate(7347%) hue-rotate(180deg) brightness(113%) contrast(83%);
   }
   #why-choose-442 .cs-number {
     font-size: var(--bodyFontSize);
@@ -364,7 +365,7 @@
     color: var(--tertiary);
   }
   body.dark-mode #why-choose-442 .cs-picture {
-    background-color: var(--accent);
+    background-color: var(--primary);
   }
   body.dark-mode #why-choose-442 .cs-item {
     position: relative;

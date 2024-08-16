@@ -710,6 +710,9 @@
     z-index: 1;
     transition: background-color 0.3s;
   }
+  #services-296 .cs-item .cs-icon {
+    filter: invert(39%) sepia(61%) saturate(366%) hue-rotate(160deg) brightness(99%) contrast(91%);
+  }
   #services-296 .cs-item:hover {
     cursor: pointer;
   }
@@ -721,7 +724,7 @@
   }
   #services-296 .cs-item:hover .cs-icon {
     /* turns it white */
-    filter: grayscale(1) brightness(1000%);
+    filter: invert(94%) sepia(48%) saturate(7347%) hue-rotate(180deg) brightness(113%) contrast(83%);
   }
   #services-296 .cs-item:hover .cs-h3,
   #services-296 .cs-item:hover .cs-item-text {
@@ -824,6 +827,6 @@
   }
   body.dark-mode #services-296 .cs-icon {
     /* turns it white */
-    filter: grayscale(1) brightness(1000%);
+    filter: invert(39%) sepia(61%) saturate(366%) hue-rotate(160deg) brightness(99%) contrast(91%);
   }
 }

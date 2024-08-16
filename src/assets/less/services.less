@@ -817,6 +817,9 @@
             position: relative;
             z-index: 1;
             transition: background-color 0.3s;
+            .cs-icon{
+                filter: invert(39%) sepia(61%) saturate(366%) hue-rotate(160deg) brightness(99%) contrast(91%);
+            }
             &:hover {
                 cursor: pointer;
 
@@ -830,7 +833,7 @@
 
                 .cs-icon {
                     /* turns it white */
-                    filter: grayscale(1) brightness(1000%);
+                    filter: invert(94%) sepia(48%) saturate(7347%) hue-rotate(180deg) brightness(113%) contrast(83%);
                 }
 
                 .cs-h3,
@@ -873,6 +876,7 @@
             height: (48/16rem);
             margin-bottom: (24/16rem);
             display: block;
+            
             path {
                 transition: fill 0.3s;
             }
@@ -950,6 +954,7 @@
 
             .cs-item {
                 background-color: var(--accent);
+                
                 &:hover {
                     background-color: var(--primary);
                 }
@@ -957,7 +962,9 @@
 
             .cs-icon {
                 /* turns it white */
-                filter: grayscale(1) brightness(1000%);
+                
+                    filter: invert(39%) sepia(61%) saturate(366%) hue-rotate(160deg) brightness(99%) contrast(91%);
+                
             }
         }
     }
