@@ -1,8 +1,8 @@
 module.exports = {
-    "name": "BookStreet Web Designs",
-    "email": "bryan@bookstreetdesign.com",
-    "phoneForTel": "706-905-6069",
-    "phoneFormatted": "(706) 905-6069",
+    "name": "Lodestar Academy",
+    "email": "jrussell@lodestar-academy.com",
+    "phoneForTel": "706-945-1115",
+    "phoneFormatted": "(706) 945-1115",
     "address": {
         "lineOne": "740 Bancroft Drive",
         "lineTwo": "",
@@ -16,5 +16,5 @@ module.exports = {
         "instagram": "https://www.instagram.com/",
     },
     //! Make sure you include the file protocol (e.g. https://) and that NO TRAILING SLASH is included
-    "domain": "https://www.bookstreetdesign.com"
+    "domain": "https://www.lodestart-academy.com"
 };

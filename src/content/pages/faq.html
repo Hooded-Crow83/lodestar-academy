@@ -1,0 +1,128 @@
+---
+title: 'FAQ | Lodestar Academy'
+description: 'FAQ Page'
+preloadImg: '/assets/images/Webdesign_1.jpg'
+permalink: 'faq/'
+eleventyNavigation:
+    key: FAQ
+    order: 350
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/portfolio.css">
+{% endblock %}
+
+{% block body %}
+    <!-- ============================================ -->
+    <!--                    LANDING                   -->
+    <!-- ============================================ -->
+
+    <section id="int-hero">
+        <h1 id="home-h">FAQ</h1>
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="/assets/images/nightsky.jpg">
+            <source media="(min-width: 601px)" srcset="/assets/images/nightsky.jpg">
+            <img aria-hidden="true" decoding="async" src="/assets/images/nightsky.jpg" alt="new home" width="2250" height="1500" loading="eager">
+        </picture>
+
+    </section>
+<!-- ============================================ -->
+<!--                     FAQ                      -->
+<!-- ============================================ -->
+
+<section id="faq-350">
+    <div class="cs-container">
+        <div class="cs-left">
+            <!--Big Image-->
+            <picture class="cs-picture cs-picture1" aria-hidden="true">
+                <source media="(max-width: 600px)" srcset="/assets/images/neurodiversity2.jpg">
+                <source media="(min-width: 601px)" srcset="/assets/images/neurodiversity2.jpg"">
+                <img loading="lazy" decoding="async" src="/assets/images/neurodiversity2.jpg"" alt="cleaning supplies" width="672" height="672">
+            </picture>
+            <div class="cs-circle"></div>
+            <!--Medium Image
+            <picture class="cs-picture cs-picture2" aria-hidden="true">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/cleaning2-m.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/cleaning2.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/cleaning2.jpg" alt="cleaning supplies" width="300" height="300">
+            </picture>-->
+            <!--Small Image
+            <picture class="cs-picture cs-picture3" aria-hidden="true">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/cleaning1-m.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/cleaning1.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/cleaning1.jpg" alt="cleaner" width="200" height="200">
+            </picture>-->
+        </div>
+        <div class="cs-content">
+            <span class="cs-topper">Lodestar Academy</span>
+            <h2 class="cs-title">Frequently Asked Questions</h2>
+            <ul class="cs-faq-group">
+                <!-- Active class added as default -->
+                <li class="cs-faq-item active">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            What grades do you serve?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        We are a K-12 school.                    
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            Can children with severe disabilities or issues apply?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        We work with students who have mild to moderate disabilities. That said, we have a unique learning environment created with neurodivergent kids specifically in mind. So, what public schools consider severe, we may not.
+
+                        We always have a pre-enrollment meeting with families to ensure that Lodestar Academy is a good fit for your child and that we can adequately accommodate them.
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            What hours/days do you operate?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        We are open Monday- Friday, and our school day is from 9am-2 pm. Once we gauge interest, additional before/aftercare programs may also be added. 
+
+                        Our school calendar follows the Richmond County school system for the most part, but there are a few days that may differ. The calendar will be posted for everyone to view soon.
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            What makes Lodestar Academy different than other schools?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lodestar Academy maintains small class sizes, with a maximum ratio of 6:1. This gives each student a more personalized education and ample opportunity for one-on-one instruction when necessary. 
+                        Our classrooms are designed with comfort in mind, avoiding traditional rows of desks. Instead, we offer various seating options, such as hammock chairs, bean bags, and standing desks. We prioritize hands-on activities and creative thinking in our daily lessons, encouraging students to think outside the box and learn in whatever way makes sense to them.  
+                        We focus on academic lessons on Tuesdays through Thursdays,  while Mondays and Fridays are dedicated to life skills and social/emotional development. We may invite community members to speak, organize field trips, or collaborate with other schools and local homeschool groups. Students can also work on independent projects or receive assistance with concepts they may find challenging or need to catch up on. 
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            How much does it cost to attend?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        For information on pricing check out the link here.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+                                
+                                
+
+    {% include 'components/cta.html' %}
+
+{% endblock %}
