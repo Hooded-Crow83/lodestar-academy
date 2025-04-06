@@ -8,7 +8,7 @@
     padding: var(--sectionPadding);
     position: relative;
     z-index: 1;
-    background-color: var(--secondaryLight);
+    background-color: var(--school-bus-yellow);
     overflow: hidden;
   }
   #services-1498 .cs-container {

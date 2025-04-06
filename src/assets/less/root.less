@@ -8,15 +8,20 @@
 @media only screen and (min-width: 0rem) {
     // Website colors
     :root {
-        --primary: #483d8b;
-        --primaryLight: #4682b4;
-        --secondary: #191970;
-        --secondaryLight: #a9ddd6;
-        --headerColor: #33312e;
+        --primary: #004aad;
+        --primaryLight: #29abe2;
+        --secondary: #f68712;
+        --secondaryLight: #ffd815;
+        --headerColor: #323031;
         --bodyTextColor: #41474a;
         --bodyTextColorWhite: #e6e5ea;
-        --tertiary: #192e6c;
+        --tertiary: #483d8b;
         --space: #6767a4;
+        --picton-blue: #bfe6f6;
+        --tangerine: #fde7d0;
+        --school-bus-yellow: #fff3b9;
+        --cobalt-blue: #ccdbef;
+        --jet: #323031ff;
 
         /* 13px - 16px */
         --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
@@ -1222,7 +1227,7 @@
             margin:0;
             /* 24px - 32px */
             padding: clamp(1.5rem, 3vw, 2rem);
-            background-color: var(--secondaryLight);
+            background-color: var(--primary);
             box-shadow: 0px 12px 80px 0px rgba(26, 26, 26, 0.08);
             /* prevents padding from affecting height and width */
             box-sizing: border-box;
@@ -1242,7 +1247,7 @@
             width: (48/16rem);
             height: auto;
             margin: 0 0 (24/16rem) 0;
-            filter: invert(14%) sepia(9%) saturate(469%) hue-rotate(357deg) brightness(93%) contrast(83%);
+            filter: invert(63%) sepia(84%) saturate(2277%) hue-rotate(165deg) brightness(94%) contrast(88%);
         }
 
         .cs-h3 {
@@ -1252,7 +1257,7 @@
             font-weight: bold;
             text-align: inherit;
             margin: 0 0 (16/16rem) 0;
-            color: var(--primary);
+            color: var(--secondaryLight);
         }
 
         .cs-item-text {
@@ -1262,7 +1267,7 @@
             max-width: (450/16rem);
             margin: 0;
             padding: 0;
-            color: var(--bodyTextColor);
+            color: var(--bodyTextColorWhite);
         }
 
         .cs-background {
@@ -1539,7 +1544,7 @@
             /* 32px - 40px */
             margin-bottom: clamp(2rem, 4vw, 2.5rem);
             padding-bottom: clamp(2rem, 4vw, 2.5rem);
-            border-bottom: 4px solid var(--secondary);
+            border-bottom: 4px solid var(--jet);
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -1569,7 +1574,7 @@
             line-height: 1.5em;
             text-decoration: none;
             margin: 0;
-            color: #bababa;
+            color: var(--headerColor);
             display: block;
             transition: color 0.3s;
 
@@ -1621,7 +1626,7 @@
             align-items: center;
             transition: background-color 0.3s;
             &:hover {
-                background-color: var(--secondary);
+                background-color: var(--primary);
 
                 .cs-social-icon {
                     filter: grayscale(1) brightness(0);
@@ -1641,7 +1646,7 @@
             font-size: (16/16rem);
             line-height: 1.5em;
             margin: 0;
-            color: #bababa;
+            color: var(--headerColor);
             display: block;
         }
 
